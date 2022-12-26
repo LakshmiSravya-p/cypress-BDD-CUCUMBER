@@ -1,0 +1,33 @@
+{
+  "name": "dtici2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run — env allure=true --reporter mocha-allure-reporter",
+    "clean:folders": "rm -R -f allure-report/* && rm -R -f allure-results/*",
+    "allure:report": "yarn run allure generate allure-results -o allure-report --clean && allure open allure-report",
+    "beforetest": "npm run clean:folders",
+    "aftertest": "npm run allure:report",
+    "tests": "npm run cy:run && npm run aftertest"
+  },
+  "author": "sravya",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.20.1",
+    "cypress": "^11.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-json-results": "^1.2.1",
+    "mocha": "^10.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+}
+}
