@@ -1,3 +1,4 @@
+//import { tagify } from 'cypress-tags';
 const { defineConfig } = require('cypress');
 //const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 //const browserify = require("@badeball/cypress-cucumber-preprocessor/browserify");
@@ -14,27 +15,36 @@ const { defineConfig } = require('cypress');
 }*/
 
 module.exports = defineConfig({
-  //reporter: 'reporters/custom.js',
+  
+ // reporter: 'reporters/custom.js',
+
+ reporter: 'junit',
+  reporterOptions: {
+    mochaFile: 'results/my-test-output.xml',
+    toConsole: true
+  },
   e2e: {
     
     setupNodeEvents(on, config) {
       const cucumber = require('cypress-cucumber-preprocessor').default
+      //const tag2=require('cypress-tags').default
       
       on('file:preprocessor', cucumber());
+      //on('file:preprocessor', tag2(config));
     },
     
     //supportFile: './cypress/support/e2e.js'
-    specPattern: 'cypress/integration/examples/BDD/*.feature',
-    //specPattern: 'cypress/integration/examples/*.js'
+   //specPattern: 'cypress/integration/examples/BDD/*.feature',
+    specPattern: 'cypress/integration/examples/test5.js'
     
   },
   //reporter: 'reporters/custom.js',
-  "retries": {
+ /* "retries": {
     // Configure retry attempts for `cypress run`
     // Default is 0
     "runMode": 2,
     // Configure retry attempts for `cypress open`
     // Default is 0
     "openMode": 2
-  },
+  },*/
 });

@@ -1,5 +1,5 @@
 ///<reference types="Cypress" />
-describe('login to demo website', function(){
+describe('[login to demo website]', function(){
     it('my first login',function(){
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
         cy.get(".search-keyword").type('cucumber')

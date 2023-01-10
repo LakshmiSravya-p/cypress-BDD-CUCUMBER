@@ -1,7 +1,7 @@
-Feature: End to End Ecommerce validation
+Feature: API Testing
 
- Scenario: Ecommerce adding product to the cart
- Given I open Ecommerce appliction
- When I signIn
- And  I LogIn
- Then Adding product to the cart
+ Scenario: Test Post Request Scenraio
+ Given APItestcase
+ When Test POST Request
+ And Test
+ Then Test Post

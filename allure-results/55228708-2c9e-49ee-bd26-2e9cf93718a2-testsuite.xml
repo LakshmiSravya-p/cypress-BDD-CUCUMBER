@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673240202657' stop='1673240202716'>
+    <name>Skip tag</name>
+    <title>Skip tag</title>
+    <test-cases>
+        <test-case start='1673240202657' status='passed' stop='1673240202678'>
+            <name>First Test</name>
+            <title>First Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673240202690' status='passed' stop='1673240202702'>
+            <name>Second Test</name>
+            <title>Second Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673240202714' status='pending' stop='1673240202714'>
+            <name>Third Test</name>
+            <title>Third Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673240202716' status='undefined'>
+            <name>Third Test</name>
+            <title>Third Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

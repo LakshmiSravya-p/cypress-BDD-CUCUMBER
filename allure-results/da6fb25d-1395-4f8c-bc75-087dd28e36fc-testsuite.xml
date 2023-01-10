@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672911544837' stop='1672911547834'>
+    <name>APItestcase</name>
+    <title>APItestcase</title>
+    <test-cases>
+        <test-case start='1672911544837' status='passed' stop='1672911546269'>
+            <name>Test POST request</name>
+            <title>Test POST request</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672911546286' status='passed' stop='1672911546805'>
+            <name>Test PUT request</name>
+            <title>Test PUT request</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672911546812' status='passed' stop='1672911547305'>
+            <name>Test GET request</name>
+            <title>Test GET request</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672911547316' status='passed' stop='1672911547834'>
+            <name>Test DELETE request</name>
+            <title>Test DELETE request</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

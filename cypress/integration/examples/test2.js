@@ -14,6 +14,7 @@ describe('My second suite', function()
             })
         
 
+
 cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
 cy.log('webpage opened')
 const d = new Date()
