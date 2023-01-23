@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-01-13T10:24:21.632Z",
+    "end": "2023-01-13T10:24:24.446Z",
+    "duration": 2814,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2875b4d1-6cbd-4701-9566-1455f15d4a13",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\BDD\\CreateAPI.feature",
+      "file": "cypress\\integration\\examples\\BDD\\CreateAPI.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "38e74558-d147-49e7-8cf4-877793312352",
+          "title": "API Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Create request scenario",
+              "fullTitle": "API Testing Test Create request scenario",
+              "timedOut": null,
+              "duration": 146,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d7e92133-2cd6-4360-8d3f-20b34577e006",
+              "parentUUID": "38e74558-d147-49e7-8cf4-877793312352",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Put Request Scenraio",
+              "fullTitle": "API Testing Test Put Request Scenraio",
+              "timedOut": null,
+              "duration": 578,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9bee8b63-9ca6-41a6-b724-a77056c9071c",
+              "parentUUID": "38e74558-d147-49e7-8cf4-877793312352",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Get Request Scenraio",
+              "fullTitle": "API Testing Test Get Request Scenraio",
+              "timedOut": null,
+              "duration": 1639,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b41233eb-b667-4f59-a964-def4ae15eabb",
+              "parentUUID": "38e74558-d147-49e7-8cf4-877793312352",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test DEL Request Scenraio",
+              "fullTitle": "API Testing Test DEL Request Scenraio",
+              "timedOut": null,
+              "duration": 300,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c9ba930a-cc79-4f8c-8f1e-f860e5152b51",
+              "parentUUID": "38e74558-d147-49e7-8cf4-877793312352",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d7e92133-2cd6-4360-8d3f-20b34577e006",
+            "9bee8b63-9ca6-41a6-b724-a77056c9071c",
+            "b41233eb-b667-4f59-a964-def4ae15eabb",
+            "c9ba930a-cc79-4f8c-8f1e-f860e5152b51"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2663,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.302" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-01-11T10:50:17" tests="1" file="cypress\integration\examples\APITesting_results_jira.js" time="4.298" failures="1">
+    <testcase name="Post File to URL" time="0.000" classname="Post File to URL">
+      <failure message="Timed out retrying after 4000ms: `cy.readFile(&quot;C:/dtici2/cypress/fixtures/my-test-output.xml&quot;)` failed because the file does not exist at the following path:
+
+`C:\dtici2\cypress\fixtures\my-test-output.xml`
+
+https://on.cypress.io/readfile" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: `cy.readFile("C:/dtici2/cypress/fixtures/my-test-output.xml")` failed because the file does not exist at the following path:
+
+`C:\dtici2\cypress\fixtures\my-test-output.xml`
+
+https://on.cypress.io/readfile
+    at Context.eval (cypress/integration/examples/APITesting_results_jira.js:5:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

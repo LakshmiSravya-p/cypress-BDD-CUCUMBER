@@ -19,8 +19,11 @@ module.exports = defineConfig({
  // reporter: 'reporters/custom.js',
 
  reporter: 'junit',
+ //reporter:'results/custom.js',
+ //reporter: 'cypress-multi-reporters',
   reporterOptions: {
-    mochaFile: 'results/my-test-output.xml',
+    mochaFile: 'fixtures/my-test-output.xml',
+    //configFile:'results/reporter-config.json',
     toConsole: true
   },
   e2e: {
@@ -34,11 +37,11 @@ module.exports = defineConfig({
     },
     
     //supportFile: './cypress/support/e2e.js'
-   //specPattern: 'cypress/integration/examples/BDD/*.feature',
-    specPattern: 'cypress/integration/examples/test5.js'
+   specPattern: 'cypress/integration/examples/BDD/*.feature'   
+   //specPattern: 'cypress/integration/examples/APITesting*.js'
     
   },
-  //reporter: 'reporters/custom.js',
+  //reporter: 'results/custom.js',
  /* "retries": {
     // Configure retry attempts for `cypress run`
     // Default is 0

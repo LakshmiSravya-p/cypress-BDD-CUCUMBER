@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673850171460' stop='1673850173217'>
+    <name>API Testing</name>
+    <title>API Testing</title>
+    <test-cases>
+        <test-case start='1673850171504' status='passed' stop='1673850171559'>
+            <name>Test Create request scenario</name>
+            <title>Test Create request scenario</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673850171559' status='passed' stop='1673850172118'>
+            <name>Test Put Request Scenraio</name>
+            <title>Test Put Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673850172120' status='passed' stop='1673850172484'>
+            <name>Test Get Request Scenraio</name>
+            <title>Test Get Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673850172484' status='passed' stop='1673850173216'>
+            <name>Test DEL Request Scenraio</name>
+            <title>Test DEL Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

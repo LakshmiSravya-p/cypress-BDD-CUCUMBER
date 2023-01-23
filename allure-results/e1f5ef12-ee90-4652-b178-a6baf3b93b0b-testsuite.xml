@@ -1,0 +1,183 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673850091829' stop='1673850094592'>
+    <name>API Testing</name>
+    <title>API Testing</title>
+    <test-cases>
+        <test-case start='1673850091868' status='passed' stop='1673850091928'>
+            <name>Test Create request scenario</name>
+            <title>Test Create request scenario</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673850091928' status='passed' stop='1673850093397'>
+            <name>Test Put Request Scenraio</name>
+            <title>Test Put Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673850093397' status='passed' stop='1673850093889'>
+            <name>Test Get Request Scenraio</name>
+            <title>Test Get Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673850093889' status='broken' stop='1673850094449'>
+            <name>Test DEL Request Scenraio</name>
+            <title>Test DEL Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.request()` failed on:
+                
+                https://gorest.co.in/public/v2/users/45508
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: DELETE
+                URL: https://gorest.co.in/public/v2/users/45508
+                Headers: {
+                  "Connection": "keep-alive",
+                  "authorization": "Bearer ebea92de55bc49a3836235affed0021b5060ed5ce22beccd6af69bda773e4a39",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/11.2.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate",
+                  "content-length": 0
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "date": "Mon, 16 Jan 2023 06:21:34 GMT",
+                  "content-type": "application/json; charset=utf-8",
+                  "transfer-encoding": "chunked",
+                  "connection": "keep-alive",
+                  "cache-control": "no-cache",
+                  "referrer-policy": "strict-origin-when-cross-origin",
+                  "vary": "Origin",
+                  "x-content-type-options": "nosniff",
+                  "x-download-options": "noopen",
+                  "x-frame-options": "SAMEORIGIN",
+                  "x-permitted-cross-domain-policies": "none",
+                  "x-ratelimit-limit": "90",
+                  "x-ratelimit-remaining": "88",
+                  "x-ratelimit-reset": "2",
+                  "x-request-id": "8c54123c-6670-4d32-a044-dfb14e874251",
+                  "x-runtime": "0.063616",
+                  "x-xss-protection": "0",
+                  "cf-cache-status": "DYNAMIC",
+                  "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=fEDDNcZb0YiYjyTuBER4gnqRD9cCIhPIMFMPWqNjzNqXZU2TurNm3XTwjvQZci361xQmlWhMA7q%2F5UEIg0az6prQtPxa3yY%2BOSNWyTWOmSym1ra3m5mP7xZSKE1quF0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                  "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                  "server": "cloudflare",
+                  "cf-ray": "78a4c06f0dac84b3-BOM",
+                  "content-encoding": "gzip",
+                  "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+                }
+                Body: {
+                  "message": "Resource not found"
+                }
+                
+                
+                https://on.cypress.io/request</message>
+                <stack-trace>CypressError: `cy.request()` failed on:
+                
+                https://gorest.co.in/public/v2/users/45508
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: DELETE
+                URL: https://gorest.co.in/public/v2/users/45508
+                Headers: {
+                  "Connection": "keep-alive",
+                  "authorization": "Bearer ebea92de55bc49a3836235affed0021b5060ed5ce22beccd6af69bda773e4a39",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/11.2.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate",
+                  "content-length": 0
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "date": "Mon, 16 Jan 2023 06:21:34 GMT",
+                  "content-type": "application/json; charset=utf-8",
+                  "transfer-encoding": "chunked",
+                  "connection": "keep-alive",
+                  "cache-control": "no-cache",
+                  "referrer-policy": "strict-origin-when-cross-origin",
+                  "vary": "Origin",
+                  "x-content-type-options": "nosniff",
+                  "x-download-options": "noopen",
+                  "x-frame-options": "SAMEORIGIN",
+                  "x-permitted-cross-domain-policies": "none",
+                  "x-ratelimit-limit": "90",
+                  "x-ratelimit-remaining": "88",
+                  "x-ratelimit-reset": "2",
+                  "x-request-id": "8c54123c-6670-4d32-a044-dfb14e874251",
+                  "x-runtime": "0.063616",
+                  "x-xss-protection": "0",
+                  "cf-cache-status": "DYNAMIC",
+                  "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=fEDDNcZb0YiYjyTuBER4gnqRD9cCIhPIMFMPWqNjzNqXZU2TurNm3XTwjvQZci361xQmlWhMA7q%2F5UEIg0az6prQtPxa3yY%2BOSNWyTWOmSym1ra3m5mP7xZSKE1quF0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                  "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                  "server": "cloudflare",
+                  "cf-ray": "78a4c06f0dac84b3-BOM",
+                  "content-encoding": "gzip",
+                  "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+                }
+                Body: {
+                  "message": "Resource not found"
+                }
+                
+                
+                https://on.cypress.io/request
+                    at &lt;unknown> (http://localhost:63100/__cypress/runner/cypress_runner.js:144251:80)
+                    at tryCatcher (http://localhost:63100/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise._settlePromiseFromHandler (http://localhost:63100/__cypress/runner/cypress_runner.js:9262:31)
+                    at Promise._settlePromise (http://localhost:63100/__cypress/runner/cypress_runner.js:9319:18)
+                    at Promise._settlePromise0 (http://localhost:63100/__cypress/runner/cypress_runner.js:9364:10)
+                    at Promise._settlePromises (http://localhost:63100/__cypress/runner/cypress_runner.js:9444:18)
+                    at _drainQueueStep (http://localhost:63100/__cypress/runner/cypress_runner.js:6034:12)
+                    at _drainQueue (http://localhost:63100/__cypress/runner/cypress_runner.js:6027:9)
+                    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:63100/__cypress/runner/cypress_runner.js:6043:5)
+                    at Async.drainQueues (http://localhost:63100/__cypress/runner/cypress_runner.js:5913:14)
+                From Your Spec Code:
+                    at Context.eval (cypress/integration/examples/BDD/CreateAPI/APITesting.js:108:5)
+                    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)
+                    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

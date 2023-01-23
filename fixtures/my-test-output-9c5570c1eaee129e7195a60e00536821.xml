@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.997" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-20T06:05:15" tests="0" file="cypress\integration\examples\BDD\ecommerce.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2023-01-20T06:05:15" tests="1" time="18.976" failures="0">
+    <testcase name="Login Login to Orange CRM Website (example #1)" time="14.212" classname="Login to Orange CRM Website (example #1)">
+    </testcase>
+  </testsuite>
+</testsuites>

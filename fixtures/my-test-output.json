@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.797" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-13T13:54:16" tests="0" file="cypress\integration\examples\BDD\CreateAPI.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="API Testing" timestamp="2023-01-13T13:54:16" tests="4" time="2.740" failures="0">
+    <testcase name="API Testing Test Create request scenario" time="0.111" classname="Test Create request scenario">
+    </testcase>
+    <testcase name="API Testing Test Put Request Scenraio" time="1.550" classname="Test Put Request Scenraio">
+    </testcase>
+    <testcase name="API Testing Test Get Request Scenraio" time="0.489" classname="Test Get Request Scenraio">
+    </testcase>
+    <testcase name="API Testing Test DEL Request Scenraio" time="0.498" classname="Test DEL Request Scenraio">
+    </testcase>
+  </testsuite>
+</testsuites>

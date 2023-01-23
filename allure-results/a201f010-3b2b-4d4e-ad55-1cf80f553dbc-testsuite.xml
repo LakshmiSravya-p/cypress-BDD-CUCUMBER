@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673850102320' stop='1673850103776'>
+    <name>API Testing</name>
+    <title>API Testing</title>
+    <test-cases>
+        <test-case start='1673850102337' status='broken' stop='1673850102674'>
+            <name>Test Create request scenario</name>
+            <title>Test Create request scenario</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step implementation missing for: POST Request</message>
+                <stack-trace>Error: Step implementation missing for: POST Request
+                    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)
+                    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673850102772' status='broken' stop='1673850103083'>
+            <name>Test Put Request Scenraio</name>
+            <title>Test Put Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step implementation missing for: PUT Request</message>
+                <stack-trace>Error: Step implementation missing for: PUT Request
+                    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)
+                    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673850103109' status='broken' stop='1673850103452'>
+            <name>Test Get Request Scenraio</name>
+            <title>Test Get Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step implementation missing for: GET Request</message>
+                <stack-trace>Error: Step implementation missing for: GET Request
+                    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)
+                    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673850103495' status='broken' stop='1673850103741'>
+            <name>Test DEL Request Scenraio</name>
+            <title>Test DEL Request Scenraio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step implementation missing for: DEL Request</message>
+                <stack-trace>Error: Step implementation missing for: DEL Request
+                    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)
+                    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

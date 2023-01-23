@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.513" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-23T04:05:30" tests="0" file="cypress\integration\examples\BDD\APIResultsToJIRA.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="API Testing" timestamp="2023-01-23T04:05:30" tests="1" time="8.490" failures="0">
+    <testcase name="API Testing Test Post Results Scenraio" time="8.428" classname="Test Post Results Scenraio">
+    </testcase>
+  </testsuite>
+</testsuites>
